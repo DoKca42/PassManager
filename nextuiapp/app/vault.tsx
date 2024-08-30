@@ -49,7 +49,7 @@ const Vault = () => {
     <NextUIProvider>
       <div className="flex gap-4 items-center flex-col w-full" style={{ padding: '20px', margin: 'auto' }}>
         <div className="w-full items-center flex flex-col">
-          <h1 className="mb-4 text-8xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-8xl dark:text-white">VAULTS</h1>
+          <h1 className="mb-4 text-8xl font-extrabold leading-none tracking-tight text-gray-900 md:text-8xl lg:text-8xl dark:text-white">VAULTS</h1>
         </div>
         <div className="w-full items-center flex flex-row flex-wrap" id="container_vault">
           {skeletonCards}
