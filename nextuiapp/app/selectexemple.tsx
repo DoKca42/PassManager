@@ -1,10 +1,9 @@
 "use client";
 import React from 'react';
-import {LockIcon} from './LockIcon.jsx';
 import { NextUIProvider, Select, SelectItem , Input, Button, Spacer} from '@nextui-org/react';
 
-import {EyeFilledIcon} from "./EyeFilledIcon";
-import {EyeSlashFilledIcon} from "./EyeSlashFilledIcon";
+import {EyeFilledIcon} from "./media/jsx/EyeFilledIcon.jsx";
+import {EyeSlashFilledIcon} from "./media/jsx/EyeSlashFilledIcon.jsx";
 
 const SelectExample = () => {
   const [isVisible, setIsVisible] = React.useState(false);

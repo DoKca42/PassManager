@@ -1,0 +1,26 @@
+.simplebar-scrollbar {
+  width: 12px !important; /* Largeur de la barre de défilement */
+  
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 12px; /* Largeur du rail de défilement vertical */
+}
+
+.simplebar-track.simplebar-horizontal {
+  height: 12px; /* Hauteur du rail de défilement horizontal */
+}
+
+.simplebar-mask {
+  z-index: auto;
+}
+
+.simplebar-scrollbar:before {
+  background: #27272a !important;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1 !important;
+  transition-delay: 0s;
+  transition-duration: 0s;
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-custom-scrollbars": "^4.2.1",
+    "simplebar-react": "^3.2.6"
+  },
+  "devDependencies": {
+    "@types/react-custom-scrollbars": "^4.0.13"
+  }
+}
